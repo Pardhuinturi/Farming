@@ -1,2 +1,2 @@
 # Farming
-argriculture related forming
+argriculture related farming nature
