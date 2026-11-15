@@ -124,3 +124,52 @@ mvn --version
 rm -rf apache-maven-3.10.0 apache-maven-3.10.0-bin.tar.gz
 mvn --version
 ls
+gitclone https://github.com/Pardhuinturi/thymeleafexamples-petclinic.git
+git clone https://github.com/Pardhuinturi/thymeleafexamples-petclinic.git
+cd thymeleafexamples-petclinic.git
+clone https://github.com/Pardhuinturi/thymeleafexamples-petclinic.git
+cd https://github.com/Pardhuinturi/thymeleafexamples-petclinic.git
+cd thymeleafexamples-petclinic.git
+ls
+cd thymeleafeaxmples-petclinic
+cd thymeleafeaxmples-petclinic/
+cd thymeleafexamples-petclinic/
+ls
+mvn packages
+mvn package
+ls
+cd thymeleafexamples-petclinic/
+ls
+mvn package
+clear
+ls
+
+ls
+mvn package
+cd thymeleafexamples-petclinic/
+clear
+ls
+cd thymeleafexamples-penclinic/
+cd thymeleafexamples-petclinic/
+cd thymeleafexamples-pet clinic/
+mvn clean package
+cd,,
+cd ..
+mvn clean package
+clear
+java --version
+<java.version>21</java.version>
+git clone https://github.com/Pardhuinturi/ExistingJavaSource.git
+cd ExistingjavaSource.git
+cd ExistingjavaSource.git/
+ls
+cd ExistingJavaSource/
+git init
+git add .
+git commit -m "Initial commit - adding farming project"
+git branch -M main
+git remote add origin https://github.com/Pardhuinturi/Farming.gitgit push -u origin main
+git remote add origin https://github.com/Pardhuinturi/Farming.git git push -u origin main
+git branch -M main
+git remote add origin https://github.com/PARDH12/Farming.git
+git push -u origin main
