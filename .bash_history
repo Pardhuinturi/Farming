@@ -173,3 +173,76 @@ git remote add origin https://github.com/Pardhuinturi/Farming.git git push -u or
 git branch -M main
 git remote add origin https://github.com/PARDH12/Farming.git
 git push -u origin main
+git branch _M main
+git branch -M main
+git remote add origin https://github.com/Pardhuinturi/Farming.git
+git push -u origin
+git push --set-upstream origin main
+git remote set-url origin https://github.com/Pardhuinturi/Farming.git
+git push --set-upstream origin main --force
+git remote set-url origin https://github.com/Pardhuinturi/Farming.git
+git push --set-upstream origin main --force
+cd /home/ec2-user/my-farming-website
+ls
+pwd
+cd
+dir
+cd /root/thymeleafexamples-petclinic
+ls
+git add .
+git commit -m "Add HTML files to Farming repository"
+git push origin main
+git checkout -b main
+git push -u origin main --force
+git rm --cached ExistingJavaSource
+ls
+rm -rf ExistingJavaSorce
+ls
+git add .
+git commit -m "Remove broken submodule ExistingJavaSource"
+git push origin main
+git add .
+git commit -m "Remove broken submodule ExistingJavaSource"
+git push origin main
+git rm --cached ExistingJavaSource
+rm -rf ExistingJavaSource .gitmodules
+git add .
+git commit -m "Remove broken submodule reference"
+git push origin main
+ls
+git rm --cached ExistingJavaSourc
+rm -rf .git/modules/ExistingJavaSource
+rm -f .gitmodules
+git add .
+git commit -m "Completely remove broken submodule metadata"
+git push origin main
+git add .
+git commit -m "Remove all submodule references and fix build"
+git push origin main
+git add .
+git commit -m "Remove all submodule references and fix build"
+git push origin main
+git pull --rebase origin main
+git push origin main
+git add -A
+git commit -m "Remove all submodule tracking completely"
+git push -f origin main
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
